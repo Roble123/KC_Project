@@ -12,6 +12,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+@SuppressWarnings("serial")
 public class CustomerInfo extends JFrame {
 
 	Connection connection = null;
